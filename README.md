@@ -8,3 +8,5 @@ The ETL pipeling consists of three main stages.
 2. **Load**: Store the extracted data into GCP cloud storage bucket working as the data sink.
 3. **Transform**: Utilize dbt to perform transformations from staging to the target Bigquery table.
 
+### Pipeline Workflow
+
