@@ -17,7 +17,11 @@ Google Cloud Platform services that is used in the extraction are the following:
 2. **Cloud Scheduler**. Utilize to setup extraction schedules.
 3. **Cloud Function**. Run lightweight code to extract QBO raw data using REST API. This will be triggered by a Pub/Sub topic running on a schedule.
 
+For simplicity of the implementation, a full extraction will be performed everytime. A full extraction is crucial to compare 
+
 #### 2. Loading
 The loading stage involves storing the raw data in a scalable and secure solution. Google Cloud storage bucket is utilized to serve as a data sink, that is a raw data is stored before it is processed and loaded into the Bigquery data warehouse for analysis.
 
 A key consideration is implemententing an incremental extraction. This means that only new and updated raw data will be extracted and loaded to Google Cloud Storage bucket. This will greatly improve performance and be more resource-efficient.
+
+#### 3. Transform
