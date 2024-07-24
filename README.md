@@ -19,3 +19,5 @@ Google Cloud Platform services that is used in the extraction are the following:
 
 #### 2. Loading
 The loading stage involves storing the raw data in a scalable and secure solution. Google Cloud storage bucket is utilized to serve as a data sink, that is a raw data is stored before it is processed and loaded into the Bigquery data warehouse for analysis.
+
+A key consideration is implemententing an incremental extraction. This means that only new and updated raw data will be extracted and loaded to Google Cloud Storage bucket. This will greatly improve performance and be more resource-efficient.
