@@ -13,6 +13,6 @@ The ETL pipeling consists of three main stages.
 The extraction stage involves fetching QuickBooks Online raw data using REST API. QBO accounting data includes entities relating to chart of accounts, customers, vendor, products and services, invoices, and other relevant information.
 
 Google Cloud Platform services that is used in the extraction are the following:
-1. **Pub/Sub**. Create a Pub/Sub topic where cloud function can subscribe to.
+1. **Pub/Sub**. Create a Pub/Sub topic to which the cloud function can subscribe.
 2. **Cloud Scheduler**. Utilize to setup extraction schedules.
-3. **Cloud Function**. Run a lightweight code
+3. **Cloud Function**. Run lightweight code to extract QBO raw data using REST API. This will be triggered by a Pub/Sub topic running on a schedule.
