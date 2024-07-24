@@ -9,4 +9,5 @@ The ETL pipeling consists of three main stages.
 3. **Transform**: Utilize dbt to perform transformations from staging to the target Bigquery table.
 
 ### Pipeline Workflow
+#### 1.Extraction
 
