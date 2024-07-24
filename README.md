@@ -1,9 +1,10 @@
-### QuickBooks - Bigquery ETL Pipeline: A Detailed Implementation
+### QuickBooks to Bigquery ETL Pipeline
 
-#### This repository hosts an ETL pipeline implementation designed to extract data from QuickBooks and feed into a Bigquery table for analytics use.
+This repository discusss an ETL pipeline implementation designed to extract data from QuickBooks and feed into a Bigquery table for analytics use. This pipeline is designed to efficiently handle data extraction, transformation and loading processes.
 
-#### Generally, ETL pipeline is composed of extract-load-transform process. The implementation of the stages of the process is described below:
-- Extract QuickBooks data using REST API
-- Store extracted data into GCP cloud storage bucket working as the data sink
-- From cloud storage bucket, utilize dbt to perform transformations from staging to the target Bigquery table.
+### Overview
+The ETL pipeling consists of three main stages.
+1. **Extract**: Retrieve QuickBooks raw data using REST API with Oauth2 Authentication.
+2. **Load**: Store the extracted data into GCP cloud storage bucket working as the data sink.
+3. **Transform**: Utilize dbt to perform transformations from staging to the target Bigquery table.
 
