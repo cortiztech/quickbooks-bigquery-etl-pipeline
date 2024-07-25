@@ -29,3 +29,21 @@ The loading stage involves storing the raw data in a scalable and secure solutio
 
 #### 3. Transform
 The transform stage involves various data preprocessing steps to prepare the raw data for the target BigQuery table. In this pipeline, dbt (Data Build Tool) is used to perform transformation tasks. These tasks include ensuring the correct data format, conducting data validation, and applying masking before loading the data into the final BigQuery table.
+
+### Setup Google Cloud Resources
+To setup the necessary Google Cloud Resources, follow the steps below.
+
+1. Ensure that [Google Cloud SDK](https://cloud.google.com/sdk?hl=en) is installed and authentication is done.
+2. Install the required Python packages.
+
+```bash
+pip install -r requirements.txt
+
+3. Update config/config.json with the necessary information.
+
+4. Run the setup script for the GCP resources.
+
+```python
+python setup_resources.py
+
+
