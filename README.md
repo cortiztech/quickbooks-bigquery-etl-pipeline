@@ -9,9 +9,10 @@ The  pipeline consists of three main stages.
 3. **Transform**: Utilize dbt to perform transformations from staging to the target Bigquery table.
 
 ### Pipeline Workflow
-![image](https://github.com/user-attachments/assets/040be499-7d58-4c83-b380-11e14b83ff9d)
+![image](https://github.com/user-attachments/assets/543289e4-d5eb-4ff9-ac99-db9c5da10cf5)
 
-#### 1.Extracti
+
+#### 1.Extract
 The extraction stage involves fetching QuickBooks Online raw data using REST API. QBO accounting data includes entities relating to chart of accounts, customers, vendor, products and services, invoices, and other relevant information.
 
 Google Cloud Platform services that is used in the extraction are the following:
