@@ -1,4 +1,4 @@
-### QuickBooks Online to Bigquery ELT Pipeline
+ ### QuickBooks Online to Bigquery ELT Pipeline
 
 This repository discusses an ELT pipeline implementation to extract data from QuickBooks Online and feed it into a Bigquery table for analytics use. This pipeline is designed to efficiently handle data extraction, load to a data sink, and transformation based on business requirements.
 
@@ -26,7 +26,3 @@ Another possible implementation is incremental extraction, where only the new an
 
 #### 2. Load
 The loading stage involves storing the raw data in a scalable and secure solution. Google Cloud storage bucket is utilized to serve as a data sink to enable to storage of raw data before it is processed and loaded into the Bigquery data warehouse for analysis.
-
-
-#### 3. Transform
-The transform stage involves various data preprocessing steps to prepare the raw data for the target BigQuery table. In this pipeline, dbt (Data Build Tool) is used to perform transformation tasks. These tasks include ensuring the correct data format, conducting data validation, and applying masking before loading the data into the final BigQuery table.
