@@ -1,0 +1,9 @@
+{
+  "project_id": "your-project-id",
+  "bucket_name": "your-bucket-name",
+  "dataset_name": "your-dataset-name",
+  "topic_name": "your-topic-name",
+  "job_name": "your-job-name",
+  "schedule": "0 9 * * *",  // Cron schedule format
+  "service_account_path": "your-service-account-path"
+}
