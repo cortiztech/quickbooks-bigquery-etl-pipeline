@@ -38,12 +38,12 @@ To setup the necessary Google Cloud Resources, follow the steps below.
 
 ```bash
 pip install -r requirements.txt
-
+```
 3. Update config/config.json with the necessary information.
 
 4. Run the setup script for the GCP resources.
 
 ```python
 python setup_resources.py
-
+```
 
