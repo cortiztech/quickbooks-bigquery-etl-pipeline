@@ -1,1 +1,7 @@
- 
+intuit-oauth
+pandas
+pandas-gbq
+pyarrow
+pydata-google-auth
+google-cloud-storage
+gcsfs

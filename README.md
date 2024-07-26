@@ -33,7 +33,7 @@ The transform stage involves various data preprocessing steps to prepare the raw
 ### Setup Google Cloud Resources
 To setup the necessary Google Cloud Resources, follow the steps below.
 
-**Prerequisite** Create a service account in Google Cloud, assign necessary permissions to the service account and enable API for services to be used.
+**Prerequisite** Create a service account in Google Cloud, assign necessary permissions to the service account and enable APIs for the services to be used.
 
 1. Ensure that [Google Cloud SDK](https://cloud.google.com/sdk?hl=en) is installed and authentication is done.
 2. Install the required Python packages.

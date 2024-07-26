@@ -1,0 +1,12 @@
+{
+  "project_id": "cortiztech",
+  "topic_name": "qbo-data-topic",
+  "job_name": "qbo-data-job",
+  "schedule": "0 8 * * *",  
+  "bucket_name": "qbo-raw-data",
+  "dataset_name": "quickbooks_online",
+  "service_account_path": "cortiztech-f01efeb5c27a.json"
+}
+
+
+
